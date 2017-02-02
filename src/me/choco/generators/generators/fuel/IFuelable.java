@@ -12,6 +12,6 @@ public interface IFuelable {
 	 * 
 	 * @return generator fuel types
 	 */
-	public GeneratorFuelSource[] getFuel();
+	public GeneratorFuelSource[] getFuelSources();
 	
 }

@@ -12,6 +12,13 @@ import org.bukkit.material.MaterialData;
  */
 public class GeneratorFuelSource {
 	
+	/**
+	 * <b>Items:</b> Coal, Charcoal
+	 * <br><b>Burn Time:</b> 1,600 ticks - 80 seconds
+	 * <br><b>Unit Power:</b> 12,000J (12kJ)
+	 */
+	public static final GeneratorFuelSource COAL = new GeneratorFuelSource(Material.COAL, 1_600, 12_000);
+	
 	private final Material material;
 	private final byte data;
 	private final int burnTime;
