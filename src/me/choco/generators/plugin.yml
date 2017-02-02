@@ -1,0 +1,6 @@
+author: 2008Choco
+name: GeneratorsPlus
+version: 1.0
+commands:
+   gp:
+       description: GeneratorsPlus testing command
